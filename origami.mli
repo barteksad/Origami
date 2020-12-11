@@ -26,9 +26,9 @@ złożona kartka. Jej przebicie po prawej stronie prostej powinno więc
 zwrócić 0. Przebicie dokładnie na prostej powinno zwrócić tyle samo,
 co przebicie kartki przed złożeniem. Po stronie lewej - tyle co przed
 złożeniem plus przebicie rozłożonej kartki w punkcie, który nałożył
-się na punkt przebicia. *)
+się na punkt przebicia.*)
 
-val skladaj : (point * point) list -> kartka -> kartka
+(* val skladaj : (point * point) list -> kartka -> kartka *)
 (** [skladaj [(p1_1,p2_1);...;(p1_n,p2_n)] k = zloz p1_n p2_n (zloz ... (zloz p1_1 p2_1 k)...)] 
 czyli wynikiem jest złożenie kartki [k] kolejno wzdłuż wszystkich prostych 
-z listy *)
+z listy *) 
